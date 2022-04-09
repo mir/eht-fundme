@@ -1,8 +1,8 @@
 from brownie import accounts, config, network, MockV3Aggregator
 from web3 import Web3
 
-DECIMALS = 18
-STARTING_PRICE = 2000
+DECIMALS = 8
+STARTING_PRICE = 2000e8
 LOCAL_BLOCKHAIN_ENVIRONMENTS = ["development","ganache-local"]
 
 def get_account():
